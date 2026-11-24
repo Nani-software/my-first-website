@@ -1,0 +1,1549 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Navaneeth | IT Support & DevOps</title>
+
+    <meta name="description" content="Navaneeth's portfolio showcasing Linux, IT Support, Networking, AWS, DevOps and technical projects.">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Loader safety fix -->
+    <script>
+        window.addEventListener("DOMContentLoaded", function () {
+            setTimeout(function () {
+                const loader = document.getElementById("page-loader");
+
+                if (loader) {
+                    loader.classList.add("loader-hidden");
+
+                    setTimeout(function () {
+                        loader.remove();
+                    }, 700);
+                }
+            }, 1500);
+        });
+    </script>
+
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+
+    <!-- LOADER -->
+
+    <div id="page-loader">
+        <div class="loader-content">
+
+            <div class="loader-logo">N</div>
+
+            <h2>Navaneeth<span>.</span></h2>
+
+            <p>IT Support | Linux | DevOps</p>
+
+            <div class="loader-bar">
+                <div class="loader-progress"></div>
+            </div>
+
+            <span class="loading-text">Loading Portfolio...</span>
+
+        </div>
+    </div>
+
+
+    <!-- NAVBAR -->
+
+    <header class="navbar">
+
+        <nav class="nav-container">
+
+            <a href="#home" class="logo">
+                Navaneeth<span>.</span>
+            </a>
+
+            <ul class="nav-links" id="navLinks">
+
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#certifications">Certifications</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#contact">Contact</a></li>
+
+            </ul>
+
+            <div class="nav-actions">
+
+                <button id="themeToggle" aria-label="Toggle theme">
+                    <i class="fa-solid fa-moon"></i>
+                </button>
+
+                <button id="menuBtn" aria-label="Toggle navigation">
+                    <i class="fa-solid fa-bars"></i>
+                </button>
+
+            </div>
+
+        </nav>
+
+    </header>
+
+
+    <!-- HERO -->
+
+    <main>
+
+        <section id="home" class="hero section">
+
+            <div class="hero-content">
+
+                <span class="hero-badge">
+                    <i class="fa-solid fa-circle"></i>
+                    Available for opportunities
+                </span>
+
+                <h1>
+                    Hi, I'm <span class="gradient-text">Navaneeth</span>
+                </h1>
+
+                <h2>
+                    <span class="typing-prefix">I'm a </span>
+                    <span id="typing"></span>
+                </h2>
+
+                <p class="hero-description">
+                    Aspiring IT Support and DevOps professional passionate
+                    about Linux, Networking, Cloud technologies,
+                    troubleshooting and automation.
+                </p>
+
+                <div class="hero-buttons">
+
+                    <a href="#projects" class="btn">
+                        <i class="fa-solid fa-code"></i>
+                        View Projects
+                    </a>
+
+                    <a href="#contact" class="btn secondary-btn">
+                        <i class="fa-solid fa-envelope"></i>
+                        Contact Me
+                    </a>
+
+                </div>
+
+                <div class="social-links">
+
+                    <a href="https://github.com/Nani-software"
+                       target="_blank"
+                       rel="noopener noreferrer"
+                       aria-label="GitHub">
+                        <i class="fa-brands fa-github"></i>
+                    </a>
+
+                    <a href="mailto:kkorlakuntanavaneeth@gmail.com"
+                       aria-label="Email">
+                        <i class="fa-solid fa-envelope"></i>
+                    </a>
+
+                </div>
+
+            </div>
+
+
+            <!-- TERMINAL -->
+
+            <div class="hero-terminal terminal">
+
+                <div class="terminal-header">
+
+                    <span class="terminal-dot red"></span>
+                    <span class="terminal-dot yellow"></span>
+                    <span class="terminal-dot green"></span>
+
+                    <span class="terminal-title">
+                        navaneeth@portfolio:~
+                    </span>
+
+                </div>
+
+                <div class="terminal-body">
+
+                    <p><span class="terminal-prompt">$</span> whoami</p>
+
+                    <p class="terminal-output">
+                        Navaneeth - IT Support Engineer
+                    </p>
+
+                    <p><span class="terminal-prompt">$</span> skills</p>
+
+                    <p class="terminal-output">
+                        Linux | Networking | AWS | Docker | Jenkins
+                    </p>
+
+                    <p><span class="terminal-prompt">$</span> status</p>
+
+                    <p class="terminal-output success">
+                        Ready to learn and build!
+                    </p>
+
+                    <p>
+                        <span class="terminal-prompt">$</span>
+                        <span class="terminal-cursor">█</span>
+                    </p>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ABOUT -->
+
+        <section id="about" class="section">
+
+            <div class="section-heading">
+
+                <span class="section-label">INTRODUCTION</span>
+
+                <h2>About <span class="gradient-text">Me</span></h2>
+
+                <p>Get to know me and my technical journey.</p>
+
+            </div>
+
+            <div class="about-content">
+
+                <div class="about-card card">
+
+                    <h3>
+                        <i class="fa-solid fa-user"></i>
+                        Who Am I?
+                    </h3>
+
+                    <p>
+                        I am a B.Tech Information Technology graduate
+                        passionate about IT Support, Linux administration,
+                        networking, cloud technologies and DevOps.
+                    </p>
+
+                    <p>
+                        I enjoy learning technologies, solving technical
+                        problems, understanding systems and building
+                        practical projects.
+                    </p>
+
+                    <p>
+                        My goal is to start my career in IT and continuously
+                        improve my technical and professional skills.
+                    </p>
+
+                </div>
+
+                <div class="about-details card">
+
+                    <div class="detail-item">
+                        <i class="fa-solid fa-graduation-cap"></i>
+                        <div>
+                            <h4>Education</h4>
+                            <p>B.Tech - Information Technology</p>
+                        </div>
+                    </div>
+
+                    <div class="detail-item">
+                        <i class="fa-solid fa-location-dot"></i>
+                        <div>
+                            <h4>Location</h4>
+                            <p>Bengaluru, India</p>
+                        </div>
+                    </div>
+
+                    <div class="detail-item">
+                        <i class="fa-solid fa-briefcase"></i>
+                        <div>
+                            <h4>Career Focus</h4>
+                            <p>IT Support | Linux | Networking | DevOps</p>
+                        </div>
+                    </div>
+
+                    <div class="detail-item">
+                        <i class="fa-solid fa-chart-line"></i>
+                        <div>
+                            <h4>Career Status</h4>
+                            <p>Entry-Level / Fresher</p>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- SKILLS -->
+
+        <section id="skills" class="section">
+
+            <div class="section-heading">
+
+                <span class="section-label">MY EXPERTISE</span>
+
+                <h2>Technical <span class="gradient-text">Skills</span></h2>
+
+                <p>Technologies and tools I am learning and working with.</p>
+
+            </div>
+
+
+            <div class="skills-grid">
+
+
+                <!-- LINUX -->
+
+                <details class="skill-card card">
+
+                    <summary>
+
+                        <div class="skill-icon purple">
+                            <i class="fa-brands fa-linux"></i>
+                        </div>
+
+                        <h3>Linux</h3>
+
+                        <p>
+                            Linux administration and command-line fundamentals.
+                        </p>
+
+                        <div class="skill-tags">
+                            <span>Ubuntu</span>
+                            <span>Red Hat</span>
+                            <span>Bash</span>
+                        </div>
+
+                        <span class="expand-label">
+                            <i class="fa-solid fa-plus"></i>
+                            Click to learn more
+                        </span>
+
+                    </summary>
+
+                    <div class="card-details">
+
+                        <h4>Linux Skills</h4>
+
+                        <ul>
+                            <li>Linux command-line navigation</li>
+                            <li>File and directory management</li>
+                            <li>File permissions</li>
+                            <li>Users and groups</li>
+                            <li>Process management</li>
+                            <li>Service management</li>
+                            <li>Package management basics</li>
+                            <li>System troubleshooting</li>
+                        </ul>
+
+                    </div>
+
+                </details>
+
+
+                <!-- NETWORKING -->
+
+                <details class="skill-card card">
+
+                    <summary>
+
+                        <div class="skill-icon blue">
+                            <i class="fa-solid fa-network-wired"></i>
+                        </div>
+
+                        <h3>Networking</h3>
+
+                        <p>
+                            Network fundamentals and connectivity troubleshooting.
+                        </p>
+
+                        <div class="skill-tags">
+                            <span>TCP/IP</span>
+                            <span>DNS</span>
+                            <span>DHCP</span>
+                        </div>
+
+                        <span class="expand-label">
+                            <i class="fa-solid fa-plus"></i>
+                            Click to learn more
+                        </span>
+
+                    </summary>
+
+                    <div class="card-details">
+
+                        <h4>Networking Skills</h4>
+
+                        <ul>
+                            <li>OSI and TCP/IP models</li>
+                            <li>IP addressing and subnetting basics</li>
+                            <li>DNS and DHCP</li>
+                            <li>Routing and switching fundamentals</li>
+                            <li>VLANs</li>
+                            <li>NAT and ACL fundamentals</li>
+                            <li>Connectivity troubleshooting</li>
+                            <li>Ping, Traceroute and IP configuration</li>
+                        </ul>
+
+                    </div>
+
+                </details>
+
+
+                <!-- AWS -->
+
+                <details class="skill-card card">
+
+                    <summary>
+
+                        <div class="skill-icon orange">
+                            <i class="fa-brands fa-aws"></i>
+                        </div>
+
+                        <h3>AWS Cloud</h3>
+
+                        <p>
+                            Cloud infrastructure and core AWS services.
+                        </p>
+
+                        <div class="skill-tags">
+                            <span>EC2</span>
+                            <span>S3</span>
+                            <span>IAM</span>
+                        </div>
+
+                        <span class="expand-label">
+                            <i class="fa-solid fa-plus"></i>
+                            Click to learn more
+                        </span>
+
+                    </summary>
+
+                    <div class="card-details">
+
+                        <h4>AWS Skills</h4>
+
+                        <ul>
+                            <li>EC2 virtual servers</li>
+                            <li>S3 storage</li>
+                            <li>IAM users, roles and policies</li>
+                            <li>VPC fundamentals</li>
+                            <li>Security Groups</li>
+                            <li>Cloud computing concepts</li>
+                            <li>Linux server access using SSH</li>
+                        </ul>
+
+                    </div>
+
+                </details>
+
+
+                <!-- DOCKER -->
+
+                <details class="skill-card card">
+
+                    <summary>
+
+                        <div class="skill-icon cyan">
+                            <i class="fa-brands fa-docker"></i>
+                        </div>
+
+                        <h3>Docker</h3>
+
+                        <p>
+                            Containerization and application deployment.
+                        </p>
+
+                        <div class="skill-tags">
+                            <span>Docker</span>
+                            <span>Images</span>
+                            <span>Compose</span>
+                        </div>
+
+                        <span class="expand-label">
+                            <i class="fa-solid fa-plus"></i>
+                            Click to learn more
+                        </span>
+
+                    </summary>
+
+                    <div class="card-details">
+
+                        <h4>Docker Skills</h4>
+
+                        <ul>
+                            <li>Docker images and containers</li>
+                            <li>Dockerfile creation</li>
+                            <li>Container lifecycle management</li>
+                            <li>Port mapping</li>
+                            <li>Volumes</li>
+                            <li>Docker networks</li>
+                            <li>Docker Compose</li>
+                        </ul>
+
+                    </div>
+
+                </details>
+
+
+                <!-- DEVOPS -->
+
+                <details class="skill-card card">
+
+                    <summary>
+
+                        <div class="skill-icon pink">
+                            <i class="fa-solid fa-gears"></i>
+                        </div>
+
+                        <h3>DevOps Tools</h3>
+
+                        <p>
+                            CI/CD, version control and automation fundamentals.
+                        </p>
+
+                        <div class="skill-tags">
+                            <span>Jenkins</span>
+                            <span>Git</span>
+                            <span>GitHub</span>
+                        </div>
+
+                        <span class="expand-label">
+                            <i class="fa-solid fa-plus"></i>
+                            Click to learn more
+                        </span>
+
+                    </summary>
+
+                    <div class="card-details">
+
+                        <h4>DevOps Skills</h4>
+
+                        <ul>
+                            <li>Git version control</li>
+                            <li>GitHub repositories</li>
+                            <li>Git branching and commits</li>
+                            <li>Jenkins fundamentals</li>
+                            <li>CI/CD pipeline basics</li>
+                            <li>Build and deployment workflows</li>
+                            <li>Automation fundamentals</li>
+                        </ul>
+
+                    </div>
+
+                </details>
+
+
+                <!-- PROGRAMMING -->
+
+                <details class="skill-card card">
+
+                    <summary>
+
+                        <div class="skill-icon green">
+                            <i class="fa-solid fa-code"></i>
+                        </div>
+
+                        <h3>Programming</h3>
+
+                        <p>
+                            Programming fundamentals and scripting.
+                        </p>
+
+                        <div class="skill-tags">
+                            <span>Python</span>
+                            <span>HTML</span>
+                            <span>CSS</span>
+                        </div>
+
+                        <span class="expand-label">
+                            <i class="fa-solid fa-plus"></i>
+                            Click to learn more
+                        </span>
+
+                    </summary>
+
+                    <div class="card-details">
+
+                        <h4>Programming Skills</h4>
+
+                        <ul>
+                            <li>Python fundamentals</li>
+                            <li>Python scripting basics</li>
+                            <li>HTML page structure</li>
+                            <li>CSS styling</li>
+                            <li>Frontend fundamentals</li>
+                            <li>Basic problem solving</li>
+                        </ul>
+
+                    </div>
+
+                </details>
+
+
+                <!-- DATABASE -->
+
+                <details class="skill-card card">
+
+                    <summary>
+
+                        <div class="skill-icon purple">
+                            <i class="fa-solid fa-database"></i>
+                        </div>
+
+                        <h3>Database</h3>
+
+                        <p>
+                            Database management and SQL query fundamentals.
+                        </p>
+
+                        <div class="skill-tags">
+                            <span>SQL</span>
+                            <span>DBMS</span>
+                            <span>MySQL</span>
+                        </div>
+
+                        <span class="expand-label">
+                            <i class="fa-solid fa-plus"></i>
+                            Click to learn more
+                        </span>
+
+                    </summary>
+
+                    <div class="card-details">
+
+                        <h4>Database Skills</h4>
+
+                        <ul>
+                            <li>SQL queries</li>
+                            <li>CRUD operations</li>
+                            <li>SELECT, INSERT, UPDATE, DELETE</li>
+                            <li>Joins</li>
+                            <li>Primary and foreign keys</li>
+                            <li>Database fundamentals</li>
+                        </ul>
+
+                    </div>
+
+                </details>
+
+
+                <!-- IT SUPPORT -->
+
+                <details class="skill-card card">
+
+                    <summary>
+
+                        <div class="skill-icon blue">
+                            <i class="fa-solid fa-headset"></i>
+                        </div>
+
+                        <h3>IT Support</h3>
+
+                        <p>
+                            Technical troubleshooting and user support.
+                        </p>
+
+                        <div class="skill-tags">
+                            <span>Troubleshooting</span>
+                            <span>Windows</span>
+                            <span>RCA</span>
+                        </div>
+
+                        <span class="expand-label">
+                            <i class="fa-solid fa-plus"></i>
+                            Click to learn more
+                        </span>
+
+                    </summary>
+
+                    <div class="card-details">
+
+                        <h4>IT Support Skills</h4>
+
+                        <ul>
+                            <li>Windows troubleshooting</li>
+                            <li>Basic hardware troubleshooting</li>
+                            <li>Network connectivity troubleshooting</li>
+                            <li>Software installation</li>
+                            <li>Incident documentation</li>
+                            <li>Root cause analysis basics</li>
+                            <li>Technical communication</li>
+                        </ul>
+
+                    </div>
+
+                </details>
+
+            </div>
+
+        </section>
+
+
+        <!-- PROJECTS -->
+
+        <section id="projects" class="section">
+
+            <div class="section-heading">
+
+                <span class="section-label">MY WORK</span>
+
+                <h2>Featured <span class="gradient-text">Projects</span></h2>
+
+                <p>Click any project to view more information.</p>
+
+            </div>
+
+
+            <div class="projects-grid">
+
+
+                <!-- PROJECT 1 -->
+
+                <details class="project-card card">
+
+                    <summary>
+
+                        <div class="project-icon">
+                            <i class="fa-solid fa-server"></i>
+                        </div>
+
+                        <h3>Real-Time Server Monitoring</h3>
+
+                        <p>
+                            Monitor system resources and server health
+                            through a dashboard.
+                        </p>
+
+                        <div class="project-tags">
+                            <span>Prometheus</span>
+                            <span>Grafana</span>
+                            <span>Docker</span>
+                        </div>
+
+                        <span class="expand-label">
+                            <i class="fa-solid fa-plus"></i>
+                            Click to view project details
+                        </span>
+
+                    </summary>
+
+                    <div class="card-details">
+
+                        <h4>Project Overview</h4>
+
+                        <p>
+                            Created a server monitoring environment to
+                            observe system metrics and visualize
+                            infrastructure health.
+                        </p>
+
+                        <h4>Tools Used</h4>
+
+                        <ul>
+                            <li>Prometheus for metrics collection</li>
+                            <li>Node Exporter for system metrics</li>
+                            <li>Grafana for dashboards</li>
+                            <li>Docker for deployment</li>
+                            <li>Alertmanager for alerts</li>
+                        </ul>
+
+                        <h4>Project Features</h4>
+
+                        <ul>
+                            <li>CPU usage tracking</li>
+                            <li>Memory monitoring</li>
+                            <li>Server metrics visualization</li>
+                            <li>Alert configuration</li>
+                            <li>Dashboard monitoring</li>
+                        </ul>
+
+                        <a href="https://github.com/Nani-software"
+                           target="_blank"
+                           rel="noopener noreferrer"
+                           class="project-link">
+                            GitHub
+                            <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                        </a>
+
+                    </div>
+
+                </details>
+
+
+                <!-- PROJECT 2 -->
+
+                <details class="project-card card">
+
+                    <summary>
+
+                        <div class="project-icon">
+                            <i class="fa-solid fa-shield-virus"></i>
+                        </div>
+
+                        <h3>Skin Disease Detection</h3>
+
+                        <p>
+                            Deep learning based skin disease
+                            classification academic project.
+                        </p>
+
+                        <div class="project-tags">
+                            <span>Python</span>
+                            <span>Deep Learning</span>
+                            <span>AI</span>
+                        </div>
+
+                        <span class="expand-label">
+                            <i class="fa-solid fa-plus"></i>
+                            Click to view project details
+                        </span>
+
+                    </summary>
+
+                    <div class="card-details">
+
+                        <h4>Project Overview</h4>
+
+                        <p>
+                            Developed an academic deep learning framework
+                            for skin disease detection and classification
+                            using image processing and model-based analysis.
+                        </p>
+
+                        <h4>Conditions</h4>
+
+                        <ul>
+                            <li>Normal</li>
+                            <li>Nail Fungus</li>
+                            <li>Skin Allergy</li>
+                            <li>Hair Loss</li>
+                            <li>Acne</li>
+                        </ul>
+
+                        <h4>Technologies</h4>
+
+                        <ul>
+                            <li>Python</li>
+                            <li>Deep Learning</li>
+                            <li>Image preprocessing</li>
+                            <li>Classification</li>
+                            <li>Model evaluation</li>
+                        </ul>
+
+                        <a href="https://github.com/Nani-software"
+                           target="_blank"
+                           rel="noopener noreferrer"
+                           class="project-link">
+                            GitHub
+                            <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                        </a>
+
+                    </div>
+
+                </details>
+
+
+                <!-- PROJECT 3 -->
+
+                <details class="project-card card">
+
+                    <summary>
+
+                        <div class="project-icon">
+                            <i class="fa-solid fa-cloud"></i>
+                        </div>
+
+                        <h3>DevOps Portfolio</h3>
+
+                        <p>
+                            Personal website showcasing my skills,
+                            projects and professional journey.
+                        </p>
+
+                        <div class="project-tags">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>GitHub</span>
+                        </div>
+
+                        <span class="expand-label">
+                            <i class="fa-solid fa-plus"></i>
+                            Click to view project details
+                        </span>
+
+                    </summary>
+
+                    <div class="card-details">
+
+                        <h4>Project Overview</h4>
+
+                        <p>
+                            Designed and developed a responsive portfolio
+                            website to present my technical skills,
+                            projects, education and certifications.
+                        </p>
+
+                        <h4>Features</h4>
+
+                        <ul>
+                            <li>Responsive design</li>
+                            <li>Interactive skill cards</li>
+                            <li>Project detail sections</li>
+                            <li>Dark and light theme</li>
+                            <li>Animated text</li>
+                            <li>Scroll animations</li>
+                        </ul>
+
+                        <h4>Technologies</h4>
+
+                        <ul>
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>Git</li>
+                            <li>GitHub</li>
+                        </ul>
+
+                        <a href="https://github.com/Nani-software"
+                           target="_blank"
+                           rel="noopener noreferrer"
+                           class="project-link">
+                            GitHub
+                            <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                        </a>
+
+                    </div>
+
+                </details>
+
+
+                <!-- PROJECT 4 -->
+
+                <details class="project-card card">
+
+                    <summary>
+
+                        <div class="project-icon">
+                            <i class="fa-solid fa-water"></i>
+                        </div>
+
+                        <h3>Flood Prediction System</h3>
+
+                        <p>
+                            Machine learning application for flood
+                            possibility prediction.
+                        </p>
+
+                        <div class="project-tags">
+                            <span>Python</span>
+                            <span>Flask</span>
+                            <span>Machine Learning</span>
+                        </div>
+
+                        <span class="expand-label">
+                            <i class="fa-solid fa-plus"></i>
+                            Click to view project details
+                        </span>
+
+                    </summary>
+
+                    <div class="card-details">
+
+                        <h4>Project Overview</h4>
+
+                        <p>
+                            Developed a machine learning application
+                            that analyzes environmental data to estimate
+                            flood possibility.
+                        </p>
+
+                        <h4>Technologies</h4>
+
+                        <ul>
+                            <li>Python</li>
+                            <li>Flask</li>
+                            <li>Data preprocessing</li>
+                            <li>Exploratory data analysis</li>
+                            <li>Machine learning classification</li>
+                            <li>HTML and Bootstrap</li>
+                        </ul>
+
+                        <h4>Features</h4>
+
+                        <ul>
+                            <li>Input environmental parameters</li>
+                            <li>Machine learning prediction</li>
+                            <li>Web-based interface</li>
+                            <li>Prediction results page</li>
+                        </ul>
+
+                        <a href="https://github.com/Nani-software"
+                           target="_blank"
+                           rel="noopener noreferrer"
+                           class="project-link">
+                            GitHub
+                            <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                        </a>
+
+                    </div>
+
+                </details>
+
+            </div>
+
+        </section>
+
+
+        <!-- CERTIFICATIONS -->
+
+        <section id="certifications" class="section">
+
+            <div class="section-heading">
+
+                <span class="section-label">LEARNING</span>
+
+                <h2>Certifications <span class="gradient-text">& Courses</span></h2>
+
+                <p>Courses and certifications completed.</p>
+
+            </div>
+
+
+            <div class="certifications-grid">
+
+
+                <details class="certificate-card card">
+
+                    <summary>
+
+                        <div class="certificate-icon">
+                            <i class="fa-brands fa-redhat"></i>
+                        </div>
+
+                        <h3>Red Hat Linux Fundamentals</h3>
+
+                        <p>
+                            Linux fundamentals and command-line knowledge.
+                        </p>
+
+                        <span class="certificate-label">Linux</span>
+
+                        <span class="expand-label">
+                            <i class="fa-solid fa-plus"></i>
+                            Details
+                        </span>
+
+                    </summary>
+
+                    <div class="card-details">
+
+                        <h4>Course Topics</h4>
+
+                        <ul>
+                            <li>Linux command line</li>
+                            <li>Files and directories</li>
+                            <li>Linux system fundamentals</li>
+                            <li>Basic administration</li>
+                        </ul>
+
+                    </div>
+
+                </details>
+
+
+                <details class="certificate-card card">
+
+                    <summary>
+
+                        <div class="certificate-icon">
+                            <i class="fa-solid fa-shield-halved"></i>
+                        </div>
+
+                        <h3>Cybersecurity for Everyone</h3>
+
+                        <p>
+                            University of Maryland.
+                        </p>
+
+                        <span class="certificate-label">Cybersecurity</span>
+
+                        <span class="expand-label">
+                            <i class="fa-solid fa-plus"></i>
+                            Details
+                        </span>
+
+                    </summary>
+
+                    <div class="card-details">
+
+                        <h4>Course Topics</h4>
+
+                        <ul>
+                            <li>Cybersecurity principles</li>
+                            <li>Security awareness</li>
+                            <li>Risk management</li>
+                            <li>Security fundamentals</li>
+                        </ul>
+
+                    </div>
+
+                </details>
+
+
+                <details class="certificate-card card">
+
+                    <summary>
+
+                        <div class="certificate-icon">
+                            <i class="fa-solid fa-brain"></i>
+                        </div>
+
+                        <h3>Machine Learning with Python</h3>
+
+                        <p>
+                            freeCodeCamp.
+                        </p>
+
+                        <span class="certificate-label">Machine Learning</span>
+
+                        <span class="expand-label">
+                            <i class="fa-solid fa-plus"></i>
+                            Details
+                        </span>
+
+                    </summary>
+
+                    <div class="card-details">
+
+                        <h4>Course Topics</h4>
+
+                        <ul>
+                            <li>Python machine learning</li>
+                            <li>Model development</li>
+                            <li>Model evaluation</li>
+                            <li>Machine learning fundamentals</li>
+                        </ul>
+
+                    </div>
+
+                </details>
+
+            </div>
+
+        </section>
+
+
+        <!-- EDUCATION -->
+
+        <section id="education" class="section">
+
+            <div class="section-heading">
+
+                <span class="section-label">ACADEMIC JOURNEY</span>
+
+                <h2>My <span class="gradient-text">Education</span></h2>
+
+            </div>
+
+            <div class="timeline">
+
+                <div class="timeline-item card">
+
+                    <span class="timeline-date">2022 - 2026</span>
+
+                    <h3>B.Tech Information Technology</h3>
+
+                    <p>
+                        Sri Venkateshwara College of Engineering,
+                        Tirupati
+                    </p>
+
+                    <p>CGPA: 8.28</p>
+
+                </div>
+
+                <div class="timeline-item card">
+
+                    <span class="timeline-date">2020 - 2022</span>
+
+                    <h3>Intermediate - MPC</h3>
+
+                    <p>Mathematics, Physics and Chemistry</p>
+
+                </div>
+
+                <div class="timeline-item card">
+
+                    <span class="timeline-date">2019 - 2020</span>
+
+                    <h3>SSC</h3>
+
+                    <p>Secondary School Education</p>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- CONTACT -->
+
+        <section id="contact" class="section">
+
+            <div class="section-heading">
+
+                <span class="section-label">GET IN TOUCH</span>
+
+                <h2>Let's <span class="gradient-text">Connect</span></h2>
+
+                <p>
+                    Looking for entry-level IT Support, Technical Support,
+                    Linux or DevOps opportunities.
+                </p>
+
+            </div>
+
+
+            <div class="contact-grid">
+
+                <a href="mailto:kkorlakuntanavaneeth@gmail.com"
+                   class="contact-card card">
+
+                    <i class="fa-solid fa-envelope"></i>
+
+                    <h3>Email</h3>
+
+                    <p>Contact me through email</p>
+
+                </a>
+
+
+                <a href="https://github.com/Nani-software"
+                   target="_blank"
+                   rel="noopener noreferrer"
+                   class="contact-card card">
+
+                    <i class="fa-brands fa-github"></i>
+
+                    <h3>GitHub</h3>
+
+                    <p>View my repositories</p>
+
+                </a>
+
+
+                <div class="contact-card card">
+
+                    <i class="fa-solid fa-location-dot"></i>
+
+                    <h3>Location</h3>
+
+                    <p>Bengaluru, India</p>
+
+                </div>
+
+            </div>
+
+
+            <div class="contact-cta">
+
+                <h3>Ready to start my IT career!</h3>
+
+                <p>
+                    I am open to entry-level opportunities,
+                    internships and learning experiences.
+                </p>
+
+                <a href="mailto:kkorlakuntanavaneeth@gmail.com"
+                   class="btn">
+
+                    <i class="fa-solid fa-paper-plane"></i>
+                    Send Me an Email
+
+                </a>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- FOOTER -->
+
+    <footer class="footer">
+
+        <div class="footer-content">
+
+            <a href="#home" class="logo">
+                Navaneeth<span>.</span>
+            </a>
+
+            <p>Building skills. Solving problems. Growing in IT.</p>
+
+            <div class="footer-social">
+
+                <a href="https://github.com/Nani-software"
+                   target="_blank"
+                   rel="noopener noreferrer">
+                    <i class="fa-brands fa-github"></i>
+                </a>
+
+                <a href="mailto:kkorlakuntanavaneeth@gmail.com">
+                    <i class="fa-solid fa-envelope"></i>
+                </a>
+
+            </div>
+
+            <p class="copyright">
+                © <span id="year"></span> Navaneeth. All rights reserved.
+            </p>
+
+        </div>
+
+    </footer>
+
+<!-- HERO SECTION -->
+
+<section class="hero section" id="home">
+
+    <div class="hero-content">
+
+        <span class="hero-badge">
+            <i class="fa-solid fa-circle"></i>
+            Open to Entry-Level Opportunities
+        </span>
+
+        <p class="hero-greeting">Hello, welcome to my portfolio 👋</p>
+
+        <h1>
+            I'm <span class="gradient-text">Navaneeth</span>
+        </h1>
+
+        <h2>
+            Aspiring <span id="typing"></span>
+        </h2>
+
+        <p class="hero-description">
+            B.Tech Information Technology graduate passionate about
+            Linux, Networking, Cloud Computing and DevOps.
+            I enjoy troubleshooting technical problems,
+            learning new technologies and building practical projects.
+        </p>
+
+        <div class="hero-buttons">
+
+            <a href="#projects" class="btn">
+                <i class="fa-solid fa-code"></i>
+                View Projects
+            </a>
+
+            <a href="#contact" class="btn secondary-btn">
+                <i class="fa-solid fa-envelope"></i>
+                Contact Me
+            </a>
+
+            <a href="resume.pdf" class="btn resume-btn" download>
+                <i class="fa-solid fa-download"></i>
+                Download Resume
+            </a>
+
+        </div>
+
+        <div class="hero-socials">
+
+            <a href="https://github.com/Nani-software"
+               target="_blank"
+               aria-label="GitHub">
+                <i class="fa-brands fa-github"></i>
+            </a>
+
+            <a href="mailto:kkor lakuntanavaneeth@gmail.com"
+               aria-label="Email">
+                <i class="fa-solid fa-envelope"></i>
+            </a>
+
+        </div>
+
+    </div>
+
+
+    <!-- RIGHT SIDE PROFILE CARD -->
+
+    <div class="hero-visual">
+
+        <div class="profile-card">
+
+            <div class="profile-card-top">
+
+                <span class="profile-dot purple-dot"></span>
+                <span class="profile-dot pink-dot"></span>
+                <span class="profile-dot cyan-dot"></span>
+
+                <span class="profile-card-label">
+                    MY PROFILE
+                </span>
+
+            </div>
+
+            <div class="profile-avatar">
+
+                <div class="avatar-circle">
+                    <i class="fa-solid fa-user-gear"></i>
+                </div>
+
+                <div class="avatar-status">
+                    <i class="fa-solid fa-circle"></i>
+                    Available
+                </div>
+
+            </div>
+
+            <h3>Navaneeth</h3>
+
+            <p class="profile-role">
+                IT Support | Linux | DevOps
+            </p>
+
+            <div class="profile-divider"></div>
+
+            <div class="profile-info">
+
+                <div>
+                    <i class="fa-solid fa-graduation-cap"></i>
+                    <span>B.Tech IT</span>
+                </div>
+
+                <div>
+                    <i class="fa-solid fa-location-dot"></i>
+                    <span>Bengaluru, India</span>
+                </div>
+
+                <div>
+                    <i class="fa-solid fa-briefcase"></i>
+                    <span>Entry-Level Professional</span>
+                </div>
+
+            </div>
+
+            <div class="profile-tech">
+
+                <span>Linux</span>
+                <span>AWS</span>
+                <span>Docker</span>
+                <span>Networking</span>
+
+            </div>
+
+        </div>
+
+
+        <!-- FLOATING CARDS -->
+
+        <div class="floating-card floating-card-one">
+
+            <i class="fa-brands fa-linux"></i>
+
+            <div>
+                <strong>Linux</strong>
+                <small>Administration</small>
+            </div>
+
+        </div>
+
+
+        <div class="floating-card floating-card-two">
+
+            <i class="fa-brands fa-docker"></i>
+
+            <div>
+                <strong>DevOps</strong>
+                <small>Tools & Automation</small>
+            </div>
+
+        </div>
+
+
+        <div class="floating-card floating-card-three">
+
+            <i class="fa-solid fa-cloud"></i>
+
+            <div>
+                <strong>Cloud</strong>
+                <small>AWS Learning</small>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- QUICK STATS -->
+
+<section class="quick-stats">
+
+    <div class="stat-card">
+        <div class="stat-icon purple">
+            <i class="fa-solid fa-graduation-cap"></i>
+        </div>
+
+        <h3>8.28</h3>
+        <p>Academic CGPA</p>
+    </div>
+
+
+    <div class="stat-card">
+        <div class="stat-icon pink">
+            <i class="fa-solid fa-layer-group"></i>
+        </div>
+
+        <h3>8+</h3>
+        <p>Technical Skills</p>
+    </div>
+
+
+    <div class="stat-card">
+        <div class="stat-icon cyan">
+            <i class="fa-solid fa-code"></i>
+        </div>
+
+        <h3>4</h3>
+        <p>Projects</p>
+    </div>
+
+
+    <div class="stat-card">
+        <div class="stat-icon green">
+            <i class="fa-solid fa-rocket"></i>
+        </div>
+
+        <h3>Fresher</h3>
+        <p>Ready to Start</p>
+    </div>
+
+</section>
+
+
+</body>
+</html>
